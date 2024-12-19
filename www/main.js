@@ -34,12 +34,10 @@ $(document).ready(function () {
   });
 
   //mic button click event
-  $("#MicBtn").click(function (e) { 
-
-    eel.playAssistantSound()
+  $("#MicBtn").click(function (e) {
+    eel.playAssistantSound();
     $("#Oval").attr("hidden", true);
     $("#SiriWave").attr("hidden", false);
-    eel.takecommand()()
-    
+    eel.allCommands()();
   });
 });
