@@ -1,1 +1,1 @@
-ASSITANT_NAME='jarvis'
+ASSISTANT_NAME='jarvis'
